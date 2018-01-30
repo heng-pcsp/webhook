@@ -165,7 +165,7 @@ $update = json_decode($content, true);
 
 if (!$update) {
   // receive wrong update, must not happen
-  exit;
+  // exit;
 }
 
 if (isset($update["message"])) {
