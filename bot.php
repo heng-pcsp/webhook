@@ -171,3 +171,10 @@ if (!$update) {
 if (isset($update["message"])) {
   processMessage($update["message"]);
 }
+else
+{
+  apiRequestJson("sendMessage", array('chat_id' => 549381667, "text" => 'Hello', 'reply_markup' => array(
+        'keyboard' => array(array('Hello', 'Hi')),
+        'one_time_keyboard' => true,
+        'resize_keyboard' => true)));
+}
