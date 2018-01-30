@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '479889510:AAEUFV8MDtSN5YAdROJaH-dFpIbUv9cS7wg');
+define('BOT_TOKEN', '545429217:AAFNH5fPNVjEpmG1-wg0yXs16KZv_mBzs4E');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 define('WEBHOOK_URL', 'https://github.com/heng-pcsp/webhook/blob/master/bot.php');
 
